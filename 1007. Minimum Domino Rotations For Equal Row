@@ -12,7 +12,7 @@ class Solution {
             if (tops[i] != target && bottoms[i] != target) return -1;
             else if (tops[i] != target) topRotations++;
             else if (bottoms[i] != target) bottomRotations++;
-        
+        }
         return Math.min(topRotations, bottomRotations);
     }
 
