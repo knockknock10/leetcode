@@ -15,6 +15,5 @@ class Solution {
         }
         return Math.min(topRotations, bottomRotations);
 
-}
 
 }
