@@ -14,5 +14,4 @@ class Solution {
             else if (bottoms[i] != target) bottomRotations++;
         }
         return Math.min(topRotations, bottomRotations);
-
 }
